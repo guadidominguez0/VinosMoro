@@ -306,6 +306,7 @@ body{
 
 .contact {
     padding: 20px;
+    margin-bottom: 0;
 }
 
 .contact h1 {
@@ -339,6 +340,7 @@ body{
     text-align: left;
     display: flex;
     flex-direction: column;
+    margin-bottom: 0
 }
 
 .box {
@@ -370,6 +372,7 @@ body{
     font-size: 16px;
     flex-direction: column;
     font-weight: 300;
+    margin-bottom: 0;
 }
 
 .contactForm {
@@ -465,17 +468,17 @@ body{
     justify-content: space-between;
     background-color: #51955C;
     color: #f0f0f0;
-    padding: 50px;
-    padding-right: 70px;
+    padding: 30px;
     flex-wrap: wrap;
     gap: 30px;
     align-items: center;
     margin: 0;
+    height: 300px;
 }
 
 .footer img {
-    height: 200px;
-    margin-top: 10px;
+    height: 150px;
+    margin-top: 0;
 }
 
 .footer h1 {
@@ -483,6 +486,7 @@ body{
     font-size: 35px;
     color: #ffffff;
     text-align: center;
+    margin: 0;
 }
 
 .footer h2 {
@@ -634,10 +638,17 @@ body{
 
     .contact {
         padding: 30px;
+        margin: 0;
     }
 
     .contact h1 {
         font-size: 30px;
+        margin: 0;
+    }
+
+    .contact h2 {
+        font-size: 20px;
+        margin: 0;
     }
 
     .contact-content {
@@ -655,18 +666,22 @@ body{
         text-align: center;
     }
 
-    .contact {
-        padding: 30px;
-    }
-
-
     .contactInfo {
         margin-bottom: 25px;
     }
 
+    .box {
+        padding: 20px;
+    }
+
     .box .text {
+        display: flex;
+        align-items: center;
         flex-direction: column;
         width: 100%;
+        margin-bottom: 0;
+        height: 60px;
+        line-height: 60px;
     }
 
     .contactInfo{
@@ -697,6 +712,7 @@ body{
         gap: 20px;
         align-items: stretch;
         padding: 30px;
+        height: auto;
     }
 
     .footer-column {
@@ -712,7 +728,8 @@ body{
     }
 
     .footer img {
-        width: 100%;
+        width: 70%;
+        margin: 0;
         height: auto;
     }
 
@@ -733,7 +750,7 @@ body{
     }
 
     .footer h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .footer p, .footer li, .footer span {
